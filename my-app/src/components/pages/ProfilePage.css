@@ -1,0 +1,15 @@
+.profile-page-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem; /* Add a gap of 5rem between the sections */
+}
+
+.left-section {
+  float: left;
+  width: 50%;
+}
+
+.right-section {
+  float: right;
+  width: 50%;
+}

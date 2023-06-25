@@ -1,0 +1,46 @@
+.edit-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.edit-card-container h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.edit-card-container div {
+  margin-bottom: 10px;
+}
+
+.edit-card-container label {
+  font-weight: bold;
+}
+
+.edit-card-container input,
+.edit-card-container textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-card-container textarea {
+  resize: vertical;
+}
+
+.edit-card-container button {
+  padding: 8px 16px;
+  background-color: #ff8f00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add any additional styles as needed */
